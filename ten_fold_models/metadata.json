@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-17T06:09:59",
+  "mode": "ten_fold_models",
+  "model": "xgb",
+  "model_params": {},
+  "feature_type": "des",
+  "fp_radius": 4,
+  "fp_bits": 2048,
+  "mol_file": "D:\\xk\\project\\python_project\\flash_selfassembly\\DrugCombination\\structure_links.csv",
+  "train_files": "D:\\xk\\project\\python_project\\flash_selfassembly\\DrugCombination\\scripts\\data\\antis_f.csv,D:\\xk\\project\\python_project\\flash_selfassembly\\DrugCombination\\scripts\\data\\harms_f.csv,D:\\xk\\project\\python_project\\flash_selfassembly\\DrugCombination\\scripts\\data\\others_f.csv,D:\\xk\\project\\python_project\\flash_selfassembly\\DrugCombination\\scripts\\data\\syn_f2.csv",
+  "label_column": "class",
+  "classes": [
+    "antagonistic",
+    "harmful",
+    "others",
+    "synergistic"
+  ],
+  "n_samples": 76921,
+  "n_features": 250,
+  "k_folds": 10,
+  "random_state": 99,
+  "model_files": [
+    "fold_01_model.joblib",
+    "fold_02_model.joblib",
+    "fold_03_model.joblib",
+    "fold_04_model.joblib",
+    "fold_05_model.joblib",
+    "fold_06_model.joblib",
+    "fold_07_model.joblib",
+    "fold_08_model.joblib",
+    "fold_09_model.joblib",
+    "fold_10_model.joblib"
+  ],
+  "model_params_serialized": "{}"
+}
