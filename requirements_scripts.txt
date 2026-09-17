@@ -1,0 +1,9 @@
+# Generated from the FSA conda environment for DrugCombination/scripts.
+# Python 3.11.9
+joblib==1.4.2
+matplotlib==3.10.0
+numpy==1.26.4
+pandas==2.3.3
+rdkit==2024.03.5
+scikit-learn==1.8.0
+xgboost==2.1.1
